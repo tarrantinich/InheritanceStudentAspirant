@@ -1,11 +1,7 @@
 package com.company;
 
 public class Aspirant extends Student {
-//    private String firstName;
-//    private String lastName;
-//    private String group;
- //   private double averageMark;
-
+    
     public Aspirant(String firstName, String lastName, double averageMark) {
         super(firstName, lastName, averageMark);
     }
