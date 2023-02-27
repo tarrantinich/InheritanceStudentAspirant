@@ -1,10 +1,10 @@
 package com.company;
 
 public class Student {
-    private String firstName;
-    private String lastName;
-    private String group;
-    private double averageMark;
+    protected String firstName;
+    protected String lastName;
+    protected String group;
+    protected double averageMark;
 
     public Student(String firstName, String lastName, double averageMark) {
         this.firstName = firstName;
